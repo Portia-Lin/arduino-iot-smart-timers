@@ -11,4 +11,5 @@
 Для получения значений *Unix Time Stamp* воспользуйтесь сайтом [Epoch Unix Time Stamp Converter](https://www.unixtimestamp.com/).
 
 Логирование действий в мониторе порта:
+
 ![Log](https://i.ibb.co/gmmmRRC/log.png)
