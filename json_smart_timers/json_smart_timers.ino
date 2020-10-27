@@ -28,6 +28,9 @@ void setup() {
   Serial.begin(115200);
   Serial.println("\n");
   pinMode(LED_BUILTIN, OUTPUT);
+
+  Serial.print("Timestamp сейчас: ");
+  Serial.println(timestamp_now);
   
   deserializeJson(doc, json); // Десериализация json
   timers = doc["timers"]; // Создание json массива из элементов внутри "timers"
